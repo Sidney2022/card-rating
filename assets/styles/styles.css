@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    line-height: 1.3em;
+    
+}
+
+main {
+    background: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    padding-top: 100px;
+    font-weight: 400;
+}
+
+
+.card{
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: hsl(213, 19%, 18%);
+}
+
+.star-img {
+    background: rgba(18, 20, 23, .3) ;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.rates {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.rate-num {
+    background: rgba(18, 20, 23, .5);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.rate-num:hover {
+    color: hsl(0, 0%, 100%);
+    background: hsl(25, 97%, 53%);
+}
+
+
+input {
+    display: none;
+}
+
+button {
+    width: 100%;
+    background:  hsl(25, 97%, 53%);
+    border-radius: 25px;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 15px;
+    letter-spacing: 4px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    font-weight: 700;
+}
+
+button:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.active-card  {
+    text-align: center;
+    display: none;
+}
+
+.active-card .sel-rate {
+    background: rgba(18, 20, 23, .3) ;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    padding: 10px 30px;
+    margin: 20px auto;
+    width: fit-content;
+    text-align: center;
+}
+
+
+.current {
+    background: hsl(216, 12%, 54%);
+    color: #fff;
+}
+
+
+@media (max-width:450px) {
+    .card {
+        width: 90%;
+        
+    }
+    main {
+        padding-top: 70px;
+
+    }
+}
+
+
+
+
+
+
+
+.attribution { font-size: 13px; text-align: center; color:#fff; margin: 10px 0;}
+
+.attribution a { color: orange }
