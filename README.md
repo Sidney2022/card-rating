@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [ Click Here ](https://sidney2022.github.io/card-rating/
+- Live Site URL: [ Click Here ](https://sidney2022.github.io/card-rating)
 
 
 
